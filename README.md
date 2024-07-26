@@ -2,6 +2,9 @@
 This repository contains the implementation of a Lane Detection system designed to enhance vehicle safety and support autonomous driving capabilities.
 The Lane Detection project aims to enhance vehicle safety and autonomous driving capabilities by accurately identifying and tracking lane markers on the road. This system utilizes advanced computer vision techniques to process real-time video feeds from vehicle-mounted cameras, detecting lane boundaries and providing critical information for safe navigation.
 
+# demo link
+https://youtu.be/Um0bbGlsMpE?si=AeEz5vOjP18f9d9p
+
 # Features
 Real-Time Video Processing: Efficient handling of video frames using concurrent processing.
 Lane Detection: Accurate identification of lane markers using OpenCV's image processing tools.
@@ -17,6 +20,7 @@ Web Interface: A simple Flask-based web application for uploading video files an
 2. Navigate to the project directory: cd lane-detection-project
 3. Install the required dependencies: pip install -r requirements.txt
 4. Run the Flask application: python app.py
+# NOTE: before run creates a flask_app folder with static file with 2 file in it 1.processed and 2.uploads and the images and the video are given in data folder or you can use your own images and video
 
 # Usage
 Upload a video file through the web interface to see the lane detection in action. The processed video with highlighted lane boundaries will be displayed on the interface.
